@@ -1,0 +1,293 @@
+/** Fonts**/
+
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;500;600;700&display=swap');
+
+/** Global Styling **/
+
+html,
+body {
+	box-sizing: border-box;
+}
+
+/** Landing Page**/
+
+.landingPage {
+	background: url(/assets/img/tianyi-ma-WiONHd_zYI4-unsplash.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	height: 100vh;
+	padding: 50px;
+}
+
+.upperFont {
+	height: 20vh;
+}
+
+.headingTop {
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 80px;
+	color: aquamarine;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.headingMid {
+	font-family: 'Cinzel', serif;
+	font-size: 85px;
+	padding-top: 110px;
+	color: aquamarine;
+	text-align: center;
+}
+
+.scrolldown {
+	width: 60px;
+	height: 100px;
+	margin-bottom: -340px;
+	/* border: 5px solid aquamarine; */
+	border-radius: 50px;
+}
+
+.chevrons {
+	padding: 6px 0 0 0;
+	margin-left: 10px;
+	margin-top: 48px;
+	width: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.chevrondown {
+	margin-top: -13px;
+	position: relative;
+	border: solid rgb(255, 255, 255);
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	transform: rotate(45deg);
+	z-index: 14;
+}
+.chevrondown:nth-child(odd) {
+	animation: pulse 600ms ease infinite alternate;
+}
+.chevrondown:nth-child(even) {
+	animation: pulse 600ms ease infinite alternate 250ms;
+}
+
+/** Main Section **/
+
+.mainLayout {
+	height: 100%;
+	background: #000000;
+	padding-top: 150px;
+}
+
+/** Bio Section **/
+
+#user-name {
+	font-size: 48px;
+	line-height: 1em;
+	color: aliceblue;
+	font-family: 'Readex Pro';
+	padding-bottom: 10px;
+}
+
+.profilePhoto {
+	padding-right: 40px;
+}
+
+#email {
+	font-weight: bold;
+}
+
+.introBio {
+	width: 600px;
+	color: #adb0b1;
+}
+
+#profile-pic {
+	width: 180px;
+	height: 180px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+/** Social Section **/
+
+#socials--list {
+	width: 770px;
+	font-size: 20px;
+	color: blueviolet;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+#socials--list a {
+	font-weight: 600;
+	color: blueviolet;
+	font-family: 'Julius Sans One', sans-serif;
+
+	font-size: 22px;
+	transition: 0.3s;
+	text-decoration: none;
+}
+
+#socials--list a:hover {
+	font-weight: 600;
+	color: cyan;
+	font-size: 0.9em;
+}
+
+.bioSummary {
+	width: 800px;
+	color: #adb0b1;
+}
+
+#bio {
+	color: #adb0b1;
+}
+.bioSummary h2 {
+	color: aliceblue;
+	font-family: 'Readex Pro';
+	font-size: 58px;
+
+	padding-top: 30px;
+}
+
+/** Tech Section **/
+
+.tech--list {
+	color: rgb(6, 130, 238);
+	padding-top: 50px;
+	padding-bottom: 30px;
+	width: 800px;
+}
+
+/** Skills Section **/
+
+.tech--list h2 {
+	font-family: 'Readex Pro';
+	color: aliceblue;
+	font-size: 58px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#wrapper--techstack__items {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1em;
+	font-size: 0.9em;
+	color: #ff05f2;
+}
+
+.card--techstack {
+	border: 1px solid #2b3031;
+	border-radius: 5px;
+	padding: 0.5em 1em;
+	align-items: center;
+}
+
+/** Projects Section **/
+
+.techUsed {
+	font-size: 14px;
+	color: aquamarine;
+	padding-top: 9px;
+}
+
+.projects--list {
+	width: 790px;
+	flex-direction: column;
+	padding-bottom: 30px;
+	justify-content: center;
+}
+
+.projects--list h2 {
+	font-family: 'Readex Pro';
+	color: aliceblue;
+	font-size: 48px;
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+
+.card--work-history {
+	color: #adb0b1;
+	border-left: 1px solid #2b3031;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	padding-left: 2em;
+}
+
+.card--work-history strong {
+	font-size: 23px;
+	padding-bottom: 2px;
+	color: aliceblue;
+}
+
+.viewLinks {
+	display: inline-flex;
+	justify-content: space-between;
+	width: 300px;
+	font-size: 16px;
+	list-style-type: circle;
+}
+
+.viewLinks a {
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+	color: rgb(116, 177, 156);
+}
+
+.line-break {
+	background-color: #2b3031;
+	height: 1px;
+}
+
+.headingBtm {
+	color: cyan;
+	font-family: 'Readex Pro';
+	font-size: 24px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	text-align: center;
+	font-weight: 400;
+}
+
+/** Key frames - animation **/
+@keyframes scrolldown-anim {
+	0% {
+		opacity: 5;
+		height: 16px;
+	}
+	40% {
+		opacity: 4;
+		height: 10px;
+	}
+	80% {
+		transform: translate(0, 20px);
+		height: 6px;
+		opacity: 9;
+	}
+	100% {
+		height: -3px;
+		opacity: 5;
+	}
+}
+
+@keyframes pulse {
+	from {
+		opacity: 10;
+	}
+	to {
+		opacity: 0.5;
+	}
+}
