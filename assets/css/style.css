@@ -16,8 +16,9 @@ hr {
 }
 
 .landingPage {
-	background: url(/assets/img/tianyi-ma-WiONHd_zYI4-unsplash.jpg);
 	background-size: cover;
+	background: url(/assets/img/tianyi-ma-WiONHd_zYI4-unsplash.jpg);
+	background-position: center;
 	background-repeat: no-repeat;
 	overflow: hidden;
 	height: 100vh;
@@ -25,17 +26,18 @@ hr {
 }
 
 .headingTop {
-	font-family: 'Julius Sans One', sans-serif;
-	font-size: 65px;
-	color: #0efff9;
-	padding-top: 100px;
+	font-family: 'Cinzel', serif;
+	font-size: 66px;
+	color: #f8f8f8;
+	padding-top: 110px;
+	font-weight: 500;
 }
 
 .headingMid {
 	font-family: 'Cinzel', serif;
 	font-size: 85px;
-	padding-top: 112px;
-	color: #74fff8;
+	padding-top: 110px;
+	color: #0efff9;
 }
 
 .scrolldown {
@@ -80,47 +82,49 @@ hr {
 	padding-top: 60px;
 }
 
-/** IntroBio Section **/
-
-.introBio {
-	width: 370px;
-	/* height: 180px; */
-	color: #e8cfff;
-}
+/** Intro Bio Section **/
 
 #user-name {
 	color: #0efff9;
 	font-family: 'Julius Sans One', sans-serif;
-	font-size: 39px;
+	font-size: 50px;
 	font-weight: 400;
+	padding-bottom: 10px;
+}
+
+.introBio {
+	width: 480px;
+	/* height: 180px; */
+	color: #e8cfff;
+	font-size: 18px;
+	padding-top: 20px;
 }
 
 #email {
-	color: #ff668d;
-	font-weight: bold;
-	padding-top: 38px;
+	color: #8492b3;
+	padding-top: 50px;
 }
 
 .profile-pic {
-	width: 220px;
-	object-fit: scale-down;
-	border-radius: 50%;
+	object-fit: cover;
+	clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
 
 /** Social List Section **/
 
 #socials--list {
 	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-
-	padding-left: 20px;
-	padding-right: 30px;
+	justify-content: space-evenly;
+	padding-right: 74px;
+	padding-top: 18px;
 }
 
 #socials--list i {
-	color: #0efff9;
-	padding-left: 10px;
+	color: #d4d7dd;
+}
+
+.photo--socials {
+	display: block;
 }
 
 /** Bio Summary **/
@@ -133,22 +137,23 @@ hr {
 
 .bioSummary h1 {
 	border-bottom: 1px solid #2b3031;
-	font-size: 60px;
+	font-size: 50px;
 	font-weight: 200;
-	color: #74fff8;
+	color: #0efff9;
 	font-family: 'Julius Sans One', sans-serif;
 	padding-bottom: 20px;
-	padding-top: 30px;
+	padding-top: 100px;
 }
 
 #bio {
 	color: #e8cfff;
+	font-size: 18px;
 }
 
 /** Skills Section **/
 
 .tech--list {
-	padding-top: 30px;
+	padding-top: 100px;
 	padding-bottom: 10px;
 	width: 100%;
 }
@@ -157,7 +162,7 @@ hr {
 	border-bottom: 1px solid #2b3031;
 	font-family: 'Julius Sans One', sans-serif;
 	font-size: 50px;
-	color: #74fff8;
+	color: #0efff9;
 	padding-top: 50px;
 	padding-bottom: 20px;
 	text-align: end;
@@ -167,7 +172,7 @@ hr {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	gap: 1em;
+	/* gap: 0.5em; */
 	font-size: 15px;
 	color: #e8cfff;
 }
@@ -184,15 +189,15 @@ hr {
 	width: 790px;
 	flex-direction: column;
 	padding-bottom: 60px;
-	padding-top: 80px;
+	padding-top: 100px;
 	justify-content: center;
 }
 
 .projects--list h1 {
 	font-family: 'Julius Sans One', sans-serif;
-	color: #74fff8;
-	font-size: 60px;
-	padding-top: 50px;
+	color: #0efff9;
+	font-size: 50px;
+	padding-top: 100px;
 	padding-bottom: 20px;
 	text-align: end;
 }
@@ -212,7 +217,7 @@ hr {
 }
 
 .card--work-history h3 {
-	color: aliceblue;
+	color: #e6ffff;
 	padding-bottom: 2px;
 }
 
@@ -237,11 +242,13 @@ hr {
 }
 
 .motto {
-	color: cyan;
+	color: #6cdeff;
 	font-family: 'Julius Sans One', sans-serif;
 	font-weight: 600;
+	font-size: 24px;
 	padding-top: 60px;
-	padding-bottom: 30px;
+	padding-bottom: 60px;
+	width: 100%;
 }
 
 /** Key frames - animation **/

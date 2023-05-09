@@ -1,219 +1,402 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <title>My Portfolio</title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href="https://html5-templates.com/" />
+        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/main.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="/assets/css/style.css" />
+        <script
+            src="https://kit.fontawesome.com/34e2e9f193.js"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+            integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+            crossorigin="anonymous"
+        ></script>
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">
+                You are using an <strong>outdated</strong> browser. Please
+                <a href="http://browsehappy.com/">upgrade your browser</a> to
+                improve your experience.
+            </p>
+        <![endif]-->
 
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-			crossorigin="anonymous"
-		/>
-		<link rel="stylesheet" href="/assets/css/style.css" />
-		<title>My Portfolio</title>
-	</head>
-	<body>
-		<!-- Landing Page of Portfolio -->
-		<div class="landingPage">
-			<div class="container-fluid text-center">
-				<h2 class="headingTop">Johan Swart</h2>
+        <div class="landingPage">
+            <div class="container-fluid text-center">
+                <h3 class="headingTop">Portfolio of a</h3>
 
-				<h1 class="headingMid">Aspiring Front End Developer</h1>
+                <h1 class="headingMid">Aspiring Front End Developer</h1>
 
-				<div class="d-flex justify-content-center align-content-center">
-					<div class="scrolldown">
-						<a class="chevrons" href="#about">
-							<div class="chevrondown"></div>
-							<div class="chevrondown"></div>
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
+                <div class="d-flex justify-content-center align-content-center">
+                    <div class="scrolldown">
+                        <a class="chevrons" href="#about">
+                            <div class="chevrondown"></div>
+                            <div class="chevrondown"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-		<section class="mainLayout" id="about">
-			<div class="container">
-				<div class="row">
-					<div class="col d-flex justify-content-center align-content-center">
-						<img class="profile-pic" src="/assets/img/Profile.PNG" />
+        <section class="mainLayout" id="about">
+            <div class="container">
+                <div class="row">
+                    <div
+                        class="col d-flex justify-content-center align-content-center"
+                    >
+                        <div class="photo--socials">
+                            <img
+                                class="profile-pic"
+                                src="/assets/img/Profile.PNG"
+                            />
 
-						<div id="socials--list">
-							<a href="https://www.linkedin.com/in/johan-swart-8575401a0/" target="_blank"
-								><i class="fa-brands fa-linkedin-in fa-2x"></i
-							></a>
-							<a href="https://github.com/Johan7560" target="_blank"
-								><i class="fa-brands fa-github fa-2x"></i
-							></a>
-							<a href="./assets/CV42.pdf" target="_blank"
-								><i class="fa-sharp fa-solid fa-file fa-2x"></i
-							></a>
-						</div>
+                            <span id="socials--list">
+                                <a
+                                    href="https://www.linkedin.com/in/johan-swart-8575401a0/"
+                                    target="_blank"
+                                    ><i class="fa-brands fa-linkedin fa-2x"></i
+                                ></a>
+                                <a
+                                    href="https://github.com/Johan7560"
+                                    target="_blank"
+                                    ><i class="fa-brands fa-github fa-2x"></i
+                                ></a>
+                                <a href="./assets/CV42.pdf" target="_blank"
+                                    ><i
+                                        class="fa-sharp fa-solid fa-file fa-2x"
+                                    ></i
+                                ></a>
+                            </span>
+                        </div>
+                        <div
+                            class="introBio d-flex flex-column justify-content-center"
+                        >
+                            <h1 id="user-name">Johan Swart</h1>
+                            <span class="pt-3">
+                                I learned to develop on my own. My experience
+                                thus far has come through reading, studying,
+                                troubleshooting, and comprehending what the code
+                                block is supposed to accomplish.
+                            </span>
+                            <span id="email">👉 swartjohannes13@gmail.com</span>
+                        </div>
+                    </div>
 
-						<div class="introBio d-flex flex-column justify-content-center">
-							<h1 id="user-name">Johan Swart</h1>
-							<span class="pt-3">
-								I learned to develop on my own. My experience thus far has come through
-								reading, studying, troubleshooting, and comprehending what the code block
-								is supposed to accomplish.
-							</span>
-							<span id="email">👉 swartjohannes13@gmail.com</span>
-						</div>
-					</div>
+                    <div
+                        class="col-12 d-flex justify-content-center align-content-center"
+                    >
+                        <div class="tech--list">
+                            <h1>Technology & Skills</h1>
+                            <hr />
 
-					<div class="col-12 d-flex justify-content-center align-content-center">
-						<div class="tech--list">
-							<h1>Skills</h1>
-							<hr />
+                            <div id="wrapper--techstack__items">
+                                <div class="card--techstack">
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="card--techstack">
+                                    <span>NodeJS</span>
+                                </div>
+                                <div class="card--techstack">
+                                    <span>Express</span>
+                                </div>
+                                <div class="card--techstack">
+                                    <span>React</span>
+                                </div>
+                                <div class="card--techstack">
+                                    <span>HTML</span>
+                                </div>
+                                <div class="card--techstack">
+                                    <span>CSS</span>
+                                </div>
+                                <div class="card--techstack">
+                                    <span>WordPress</span>
+                                </div>
+                                <div class="card--techstack">
+                                    <span>Web Hosting</span>
+                                </div>
+                                <div class="card--techstack">
+                                    <span>MongoDB</span>
+                                </div>
+                                <div class="card--techstack">
+                                    <span>Bootstrap5</span>
+                                </div>
+                                <div class="card--techstack">
+                                    <span>Git</span>
+                                </div>
+                                <div class="card--techstack">
+                                    <span>NoSQL</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-							<div id="wrapper--techstack__items">
-								<div class="card--techstack"><span>JavaScript</span></div>
-								<div class="card--techstack"><span>NodeJS</span></div>
-								<div class="card--techstack">
-									<span>Express</span>
-								</div>
-								<div class="card--techstack"><span>React</span></div>
-								<div class="card--techstack"><span>HTML</span></div>
-								<div class="card--techstack"><span>CSS</span></div>
-								<div class="card--techstack"><span>WordPress</span></div>
-								<div class="card--techstack"><span>Web Hosting</span></div>
-								<div class="card--techstack"><span>MongoDB</span></div>
-								<div class="card--techstack"><span>Bootstrap5</span></div>
-								<div class="card--techstack"><span>Git</span></div>
-								<div class="card--techstack"><span>NoSQL</span></div>
-							</div>
-						</div>
-					</div>
+                    <div class="col-12 d-flex">
+                        <div class="bioSummary">
+                            <h1>Me, Myself & I</h1>
+                            <hr />
 
-					<div class="col-12 d-flex">
-						<div class="bioSummary">
-							<h1>Bio</h1>
-							<hr />
+                            <p id="bio" class="text-center">
+                                I learned to develop on my own. My experience
+                                thus far has come through reading, studying,
+                                troubleshooting, and comprehending what the code
+                                block is supposed to accomplish. Due to my work
+                                as a freelance web developer for businesses, I
+                                also have experience in that area. I learned a
+                                lot about design principles and methodologies
+                                through this, and I also learned that if I
+                                encountered a flaw or difficulty, I had to do
+                                some research to figure out what was wrong.
+                                Highly motivated and experienced professional
+                                with a passion for problem solving and creative
+                                solutions. Experience in database design and
+                                development, and have a solid deep understanding
+                                of web technologies and is proficient in HTML,
+                                CSS, JavaScript. Team player who is always
+                                willing to go the extra mile to ensure that
+                                projects are completed on time and within
+                                budget. Great communicator. Avid learner and is
+                                constantly striving to stay up-to-date with the
+                                latest technologies and trends. Always looking
+                                for new challenges.
+                            </p>
+                        </div>
+                    </div>
 
-							<p id="bio" class="text-center">
-								I learned to develop on my own. My experience thus far has come through
-								reading, studying, troubleshooting, and comprehending what the code block
-								is supposed to accomplish. Due to my work as a freelance web developer for
-								businesses, I also have experience in that area. I learned a lot about
-								design principles and methodologies through this, and I also learned that
-								if I encountered a flaw or difficulty, I had to do some research to figure
-								out what was wrong. Highly motivated and experienced professional with a
-								passion for problem solving and creative solutions. Experience in database
-								design and development, and have a solid deep understanding of web
-								technologies and is proficient in HTML, CSS, JavaScript. Team player who
-								is always willing to go the extra mile to ensure that projects are
-								completed on time and within budget. Great communicator. Avid learner and
-								is constantly striving to stay up-to-date with the latest technologies and
-								trends. Always looking for new challenges.
-							</p>
-						</div>
-					</div>
+                    <div class="col d-flex justify-content-center">
+                        <div id="work-history-wrapper" class="projects--list">
+                            <h1>My Projects</h1>
 
-					<div class="col d-flex justify-content-center">
-						<div id="work-history-wrapper" class="projects--list">
-							<h1>Projects</h1>
+                            <div class="line-break"></div>
+                            <div class="card--work-history">
+                                <h3>Yu-Gi-Oh | Website</h3>
+                                <p class="techUsed">
+                                    HTML5, CSS, Bootstrap5, JavaScript
+                                </p>
+                                <p>
+                                    Worked on making Agora’s Web Based SDK more
+                                    accessible through video tutorials,
+                                    articles, demo projects and event based
+                                    training. Also building out React UI
+                                    components & leading a team to re-design
+                                    Agora’s documentation and api reference.
+                                </p>
+                                <ul class="viewLinks">
+                                    <li>
+                                        <a
+                                            href="http://yu-gi-oh-website.vercel.app/"
+                                            >Live Demo</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://github.com/Johan7560/Yu-Gi-Oh-Website"
+                                            >Sourc Code</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="line-break"></div>
 
-							<div class="line-break"></div>
-							<div class="card--work-history">
-								<h3>Yu-Gi-Oh | Website</h3>
-								<p class="techUsed">HTML5, CSS, Bootstrap5, JavaScript</p>
-								<p>
-									Worked on making Agora’s Web Based SDK more accessible through video
-									tutorials, articles, demo projects and event based training. Also
-									building out React UI components & leading a team to re-design Agora’s
-									documentation and api reference.
-								</p>
-								<ul class="viewLinks">
-									<li><a href="http://yu-gi-oh-website.vercel.app/">Live Demo</a></li>
-									<li>
-										<a href="https://github.com/Johan7560/Yu-Gi-Oh-Website">Sourc Code</a>
-									</li>
-								</ul>
-							</div>
-							<div class="line-break"></div>
+                            <div class="card--work-history">
+                                <h3>BIC | Website</h3>
+                                <p class="techUsed">
+                                    HTML5, CSS, Bootstrap5, JavaScript, Web
+                                    Deploy & Maintain
+                                </p>
+                                <p>
+                                    Worked on making Agora’s Web Based SDK more
+                                    accessible through video tutorials,
+                                    articles, demo projects and event based
+                                    training. Also building out React UI
+                                    components & leading a team to re-design
+                                    Agora’s documentation and api reference.
+                                </p>
+                                <ul class="viewLinks">
+                                    <li>
+                                        <a
+                                            href="https://1st-web-design-client-v1.vercel.app/"
+                                            >Live Demo</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://github.com/Johan7560/1stWebDesign_ClientV1"
+                                            >Sourc Code</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="line-break"></div>
 
-							<div class="card--work-history">
-								<h3>BIC | Website</h3>
-								<p class="techUsed">
-									HTML5, CSS, Bootstrap5, JavaScript, Web Deploy & Maintain
-								</p>
-								<p>
-									Worked on making Agora’s Web Based SDK more accessible through video
-									tutorials, articles, demo projects and event based training. Also
-									building out React UI components & leading a team to re-design Agora’s
-									documentation and api reference.
-								</p>
-								<ul class="viewLinks">
-									<li>
-										<a href="https://1st-web-design-client-v1.vercel.app/">Live Demo</a>
-									</li>
-									<li>
-										<a href="https://github.com/Johan7560/1stWebDesign_ClientV1"
-											>Sourc Code</a
-										>
-									</li>
-								</ul>
-							</div>
-							<div class="line-break"></div>
+                            <div class="card--work-history">
+                                <h3>SignUp_V1 | Application</h3>
+                                <p class="techUsed">
+                                    HTML5, CSS, Bootstrap5, JavaScript, Node.js,
+                                    Express, MongoDB
+                                </p>
+                                <p>
+                                    My own personal project where I designed a
+                                    basic SignUp application with a NoSQL
+                                    database
+                                </p>
+                                <ul class="viewLinks">
+                                    <li>
+                                        <a
+                                            href="https://web-production-bb5c.up.railway.app/"
+                                            >Live Demo</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://github.com/Johan7560/SignUpAppV1"
+                                            >Sourc Code</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="line-break"></div>
 
-							<div class="card--work-history">
-								<h3>SignUp_V1 | Application</h3>
-								<p class="techUsed">
-									HTML5, CSS, Bootstrap5, JavaScript, Node.js, Express, MongoDB
-								</p>
-								<p>
-									My own personal project where I designed a basic SignUp application with
-									a NoSQL database
-								</p>
-								<ul class="viewLinks">
-									<li>
-										<a href="https://web-production-bb5c.up.railway.app/">Live Demo</a>
-									</li>
-									<li>
-										<a href="https://github.com/Johan7560/SignUpAppV1">Sourc Code</a>
-									</li>
-								</ul>
-							</div>
-							<div class="line-break"></div>
+                            <div class="card--work-history">
+                                <h3>PokeDexV2 | App</h3>
+                                <p class="techUsed">
+                                    HTML5, CSS, Bootstrap5, JavaScript
+                                </p>
+                                <p>
+                                    PokeDex App App is best viewed only in
+                                    desktop mode. Was one of my first designs
+                                    and did not make it for mobile device
+                                    responsiveness as my focus was just to start
+                                    very basic and raw and see how I can develop
+                                    this Pokedex.
+                                </p>
+                                <ul class="viewLinks">
+                                    <li>
+                                        <a
+                                            href="http://pokedex-v2-eight.vercel.app/"
+                                            >Live Demo</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://github.com/Johan7560/PokeDexV2"
+                                            >Sourc Code</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
 
-							<div class="card--work-history">
-								<h3>PokeDexV2 | App</h3>
-								<p class="techUsed">HTML5, CSS, Bootstrap5, JavaScript</p>
-								<p>
-									PokeDex App App is best viewed only in desktop mode. Was one of my first
-									designs and did not make it for mobile device responsiveness as my focus
-									was just to start very basic and raw and see how I can develop this
-									Pokedex.
-								</p>
-								<ul class="viewLinks">
-									<li><a href="http://pokedex-v2-eight.vercel.app/">Live Demo</a></li>
-									<li><a href="https://github.com/Johan7560/PokeDexV2">Sourc Code</a></li>
-								</ul>
-							</div>
+                            <div class="line-break"></div>
 
-							<div class="line-break"></div>
-						</div>
-					</div>
-					<h5 class="motto text-center">
-						You're Never Too Old To Reinvent Yourself. . .
-					</h5>
-				</div>
-			</div>
-		</section>
-		<script
-			src="https://kit.fontawesome.com/34e2e9f193.js"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-			integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-			crossorigin="anonymous"
-		></script>
-		<script
-			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
-			integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
-			crossorigin="anonymous"
-		></script>
-	</body>
+                            <div class="card--work-history">
+                                <h3>JokesGeneratorV2</h3>
+                                <p class="techUsed">
+                                    HTML5, CSS, Bootstrap5, JavaScript, API
+                                </p>
+                                <p>
+                                    My own personal project where I designed a
+                                    basic SignUp application with a NoSQL
+                                    database
+                                </p>
+                                <ul class="viewLinks">
+                                    <li>
+                                        <a
+                                            href="http://jokes-generator-v2.vercel.app/"
+                                            >Live Demo</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://github.com/Johan7560/JokesGeneratorV2"
+                                            >Sourc Code</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="line-break"></div>
+
+                            <div class="card--work-history">
+                                <h3>First_Website_I_Attempted_Design</h3>
+                                <p class="techUsed">
+                                    HTML5, CSS, Bootstrap5, JavaScript
+                                </p>
+                                <p>
+                                    This is literally my first attempt I made at
+                                    developing and designing my own website
+                                    while still studying Web Dev at Hyperiondev.
+                                </p>
+                                <ul class="viewLinks">
+                                    <li>
+                                        <a
+                                            href="https://first-website-i-attempted-design.vercel.app/"
+                                            >Live Demo</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            href="https://github.com/Johan7560/First_Website_I_Attempted_Design"
+                                            >Sourc Code</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="line-break"></div>
+                        </div>
+                    </div>
+                    <span class="motto text-center"
+                        >You're Never Too Old To Reinvent Yourself . . .</span
+                    >
+                </div>
+            </div>
+        </section>
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>
+            window.jQuery ||
+                document.write(
+                    '<script src="js/vendor/jquery-1.12.0.min.js"><\/script>'
+                );
+        </script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function (b, o, i, l, e, r) {
+                b.GoogleAnalyticsObject = l;
+                b[l] ||
+                    (b[l] = function () {
+                        (b[l].q = b[l].q || []).push(arguments);
+                    });
+                b[l].l = +new Date();
+                e = o.createElement(i);
+                r = o.getElementsByTagName(i)[0];
+                e.src = "https://www.google-analytics.com/analytics.js";
+                r.parentNode.insertBefore(e, r);
+            })(window, document, "script", "ga");
+            ga("create", "UA-XXXXX-X", "auto");
+            ga("send", "pageview");
+        </script>
+    </body>
 </html>
