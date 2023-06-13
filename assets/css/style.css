@@ -17,7 +17,7 @@ hr {
 
 .landingPage {
 	background-size: cover;
-	background: url(/assets/img/tianyi-ma-WiONHd_zYI4-unsplash.jpg);
+	background: url(/assets/img/kyle-sung-oQuP_XBjOMY-unsplash.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	overflow: hidden;
@@ -27,23 +27,23 @@ hr {
 
 .headingTop {
 	font-family: 'Cinzel', serif;
-	font-size: 66px;
+	font-size: 50px;
 	color: #f8f8f8;
-	padding-top: 110px;
+	padding-top: 10px;
 	font-weight: 500;
 }
 
 .headingMid {
 	font-family: 'Cinzel', serif;
-	font-size: 85px;
-	padding-top: 110px;
+	font-size: 75px;
+	padding-top: 80px;
 	color: #0efff9;
 }
 
 .scrolldown {
 	width: 60px;
 	height: 100px;
-	padding-top: 270px;
+	padding-top: 430px;
 	border-radius: 50px;
 }
 
