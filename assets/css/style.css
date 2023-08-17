@@ -1,11 +1,16 @@
-/** Fonts**/
+/* ==========================================================================
+    								Fonts.
+   ========================================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
 
-/** Landing Page**/
+/* ==========================================================================
+								Landing Page.
+========================================================================== */
 
+// Custom hr styling
 hr {
 	display: inline-block;
 	height: 1px;
@@ -17,7 +22,7 @@ hr {
 
 .landingPage {
 	background-size: cover;
-	background: url(/assets/img/kyle-sung-oQuP_XBjOMY-unsplash.jpg);
+	background: url(/assets/img/landing_img.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	overflow: hidden;
@@ -26,7 +31,7 @@ hr {
 }
 
 .headingTop {
-	font-family: 'Cinzel', serif;
+	font-family: "Cinzel", serif;
 	font-size: 50px;
 	color: #f8f8f8;
 	padding-top: 10px;
@@ -34,7 +39,7 @@ hr {
 }
 
 .headingMid {
-	font-family: 'Cinzel', serif;
+	font-family: "Cinzel", serif;
 	font-size: 75px;
 	padding-top: 80px;
 	color: #0efff9;
@@ -56,6 +61,7 @@ hr {
 	flex-direction: column;
 	align-items: center;
 }
+
 .chevrondown {
 	margin-top: -13px;
 	position: relative;
@@ -67,14 +73,18 @@ hr {
 	transform: rotate(45deg);
 	z-index: 14;
 }
+
 .chevrondown:nth-child(odd) {
 	animation: pulse 600ms ease infinite alternate;
 }
+
 .chevrondown:nth-child(even) {
 	animation: pulse 600ms ease infinite alternate 250ms;
 }
 
-/** Main Section **/
+/* ==========================================================================
+    							Main Section.
+   ========================================================================== */
 
 .mainLayout {
 	height: 100%;
@@ -82,11 +92,13 @@ hr {
 	padding-top: 60px;
 }
 
-/** Intro Bio Section **/
+/* ==========================================================================
+    							Intro Bio Section.
+   ========================================================================== */
 
 #user-name {
 	color: #0efff9;
-	font-family: 'Julius Sans One', sans-serif;
+	font-family: "Julius Sans One", sans-serif;
 	font-size: 50px;
 	font-weight: 400;
 	padding-bottom: 10px;
@@ -110,7 +122,9 @@ hr {
 	clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 }
 
-/** Social List Section **/
+/* ==========================================================================
+    						Social List Section.
+   ========================================================================== */
 
 #socials--list {
 	display: flex;
@@ -127,7 +141,9 @@ hr {
 	display: block;
 }
 
-/** Bio Summary **/
+/* ==========================================================================
+								Bio Summary.
+========================================================================== */
 
 .bioSummary {
 	padding-top: 100px;
@@ -140,7 +156,7 @@ hr {
 	font-size: 50px;
 	font-weight: 200;
 	color: #0efff9;
-	font-family: 'Julius Sans One', sans-serif;
+	font-family: "Julius Sans One", sans-serif;
 	padding-bottom: 20px;
 	padding-top: 100px;
 }
@@ -150,7 +166,9 @@ hr {
 	font-size: 18px;
 }
 
-/** Skills Section **/
+/* ==========================================================================
+								Skills Section.
+========================================================================== */
 
 .tech--list {
 	padding-top: 100px;
@@ -160,7 +178,7 @@ hr {
 
 .tech--list h1 {
 	border-bottom: 1px solid #2b3031;
-	font-family: 'Julius Sans One', sans-serif;
+	font-family: "Julius Sans One", sans-serif;
 	font-size: 50px;
 	color: #0efff9;
 	padding-top: 50px;
@@ -183,7 +201,9 @@ hr {
 	padding: 0.5em 1em;
 }
 
-/** Projects Section **/
+/* ==========================================================================
+    								Projects.
+   ========================================================================== */
 
 .projects--list {
 	width: 790px;
@@ -194,7 +214,7 @@ hr {
 }
 
 .projects--list h1 {
-	font-family: 'Julius Sans One', sans-serif;
+	font-family: "Julius Sans One", sans-serif;
 	color: #0efff9;
 	font-size: 50px;
 	padding-top: 100px;
@@ -243,7 +263,7 @@ hr {
 
 .motto {
 	color: #6cdeff;
-	font-family: 'Julius Sans One', sans-serif;
+	font-family: "Julius Sans One", sans-serif;
 	font-weight: 600;
 	font-size: 24px;
 	padding-top: 60px;
@@ -251,7 +271,9 @@ hr {
 	width: 100%;
 }
 
-/** Key frames - animation **/
+/* ==========================================================================
+							Key frames - animation
+   ========================================================================== */
 @keyframes scrolldown-anim {
 	0% {
 		opacity: 5;
@@ -279,4 +301,12 @@ hr {
 	to {
 		opacity: 0.5;
 	}
+}
+
+/* ==========================================================================
+    Media Queries for Responsive Design.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+	/* Style adjustments for viewports that meet the condition */
 }
